@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=InstrIcon
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ InstrIcon\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=img\ p1\ p2
+comment1.target=InstrIcon(greenfoot.GreenfootImage,\ int,\ int)
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ InstrIcon\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getXY()
+comment3.params=
+comment3.target=void\ act()
+numComments=4

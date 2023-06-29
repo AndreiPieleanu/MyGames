@@ -1,0 +1,26 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class level1 here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class level1 extends LockUnlock
+{
+    /**
+     * Act - do whatever the level1 wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public level1(){
+        setImage(new GreenfootImage("Nivelul 1", 25, 
+        Color.BLACK, Color.WHITE));
+    }
+    public void act() 
+    {
+        if(Greenfoot.mousePressed(this)){
+            SelectLevel.levelSituation = 1;
+            Greenfoot.setWorld(new Nivel1());
+        }
+    }    
+}

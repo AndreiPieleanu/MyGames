@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Confirmation
+comment1.params=
+comment1.target=void\ confirmPurchase()
+comment1.text=\r\n\ Launch\ the\ application.\r\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment3.params=
+comment3.target=void\ run()
+comment4.params=
+comment4.target=Confirmation()
+comment4.text=\r\n\ Create\ the\ frame.\r\n
+comment5.params=arg0
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment6.params=arg0
+comment6.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=7

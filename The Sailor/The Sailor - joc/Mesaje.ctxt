@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Mesaje
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Mesaje\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Mesaje()
+comment2.params=text
+comment2.target=Mesaje(java.lang.String)
+comment3.params=text\ dim
+comment3.target=Mesaje(java.lang.String,\ int)
+comment4.params=text\ w
+comment4.target=Mesaje(java.lang.String,\ greenfoot.World)
+comment5.params=text
+comment5.target=void\ update(java.lang.String)
+comment6.params=
+comment6.target=void\ act()
+comment7.params=text
+comment7.target=void\ setMessage(java.lang.String)
+comment8.params=
+comment8.target=java.lang.String\ getMessage()
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10

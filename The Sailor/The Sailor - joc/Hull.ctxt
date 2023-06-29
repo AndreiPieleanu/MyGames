@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Hull
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Hull\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=int\ getLevel()
+comment2.params=
+comment2.target=int\ getLevelOfItem()
+comment3.params=levelOfItem
+comment3.target=void\ setLevelOfItem(int)
+comment4.params=
+comment4.target=int\ getPrice()
+comment5.params=price
+comment5.target=void\ setPrice(int)
+comment6.params=
+comment6.target=Hull()
+comment7.params=s
+comment7.target=Hull(java.lang.String)
+comment8.params=
+comment8.target=void\ act()
+numComments=9

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Options
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Launch\ the\ application.\r\n
+comment10.params=arg0
+comment10.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment2.params=
+comment2.target=void\ run()
+comment3.params=
+comment3.target=Options()
+comment3.text=\r\n\ Create\ the\ frame.\r\n
+comment4.params=arg0
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.params=arg0
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment6.params=arg0
+comment6.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment7.params=arg0
+comment7.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment8.params=arg0
+comment8.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment9.params=arg0
+comment9.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=11

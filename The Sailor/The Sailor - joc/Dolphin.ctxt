@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Dolphin
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Dolphin\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Dolphin()
+comment2.params=initialTimer
+comment2.target=void\ setTimer(int)
+comment3.params=
+comment3.target=int\ getInitialTimer()
+comment4.params=
+comment4.target=boolean\ checkRangeToSpawn()
+comment5.params=
+comment5.target=void\ animate()
+comment6.params=
+comment6.target=void\ act()
+numComments=7

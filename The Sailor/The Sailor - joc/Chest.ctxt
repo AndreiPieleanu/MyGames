@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Chest
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Chest\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=typeOfShip
+comment1.target=void\ setTypeOfShip(int)
+comment2.params=
+comment2.target=int\ getTypeOfShip()
+comment3.params=
+comment3.target=Chest()
+comment4.params=
+comment4.target=void\ rotate()
+comment5.params=
+comment5.target=void\ disappear()
+comment6.params=
+comment6.target=void\ act()
+numComments=7

@@ -1,0 +1,64 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class ShipComponents here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class ShipComponents extends Actor
+{
+    /**
+     * Act - do whatever the ShipComponents wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    protected void resizeToShop(GreenfootImage image, int percentage1, int percentage2){
+        image.scale(image.getWidth()*percentage1/100, image.getHeight()*percentage2/100);
+        setImage(image);
+    }
+    void selectItem(String message, int nivel, boolean isBoughtAlready, int price){
+        if(Greenfoot.mouseClicked(this)){
+            if (ShopIcons.class.isInstance(getWorld())){
+                //getWorld().addObject(new ShopIcon(message), getWorld().getWidth()/2, getWorld().getHeight()/2);
+                System.out.println(message + " " + nivel + " " + isBoughtAlready + " " + price);
+                if(boatProperties.money >= price){
+                    if(message.contains("carma")){
+                        if(nivel == 1){
+                            if(Carma.isLvl1Bought){
+                                System.out.println("Obiectul este deja cumparat!");
+                            }else{
+                                boatProperties.money-=price;
+                                Carma.isLvl1Bought = true;
+                            }
+                        }
+                        if(nivel == 2){
+                            if(Carma.isLvl2Bought){
+                                System.out.println("Obiectul este deja cumparat!");
+                            }else{
+                                boatProperties.money-=price;
+                                Carma.isLvl2Bought = true;
+                            }
+                        }
+                        if(nivel == 3){
+                            if(Carma.isLvl3Bought){
+                                System.out.println("Obiectul este deja cumparat!");
+                            }else{
+                                boatProperties.money-=price;
+                                Carma.isLvl3Bought = true;
+                            }
+                        }
+                    }
+                    //System.out.println("Tranzactia a fost un succes!");
+                }else{
+                    System.out.println("Prea scump!");
+                }
+            }
+            
+        }
+    }
+    
+    public void act() 
+    {
+        // Add your action code here.
+    }    
+}

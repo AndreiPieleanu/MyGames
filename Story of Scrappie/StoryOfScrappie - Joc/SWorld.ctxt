@@ -1,0 +1,42 @@
+#BlueJ class context
+comment0.target=SWorld
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ SWorld\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=wide\ high\ cellSize\ scrollWide\ scrollHigh
+comment1.target=SWorld(int,\ int,\ int,\ int,\ int)
+comment1.text=\r\n\ \ \ \ \ \ \ dimensiunile\ Nivelului2\ in\ functie\ de\ cell(standard\ cell\=1)\ si\ de\ inaltimea\ Nivelului2\ in\ sine\r\n
+comment10.params=
+comment10.target=void\ act()
+comment11.params=
+comment11.target=void\ scrollBackground()
+comment12.params=
+comment12.target=void\ scrollObjects()
+comment12.text=\r\n\ da-le\ scroll\ la\ toate\ obiectele\ scrollable\ si\ determina\ limitele\ actorului\ principal\r\n
+comment13.params=
+comment13.target=int\ getScrolledX()
+comment14.params=
+comment14.target=int\ getScrolledY()
+comment15.params=
+comment15.target=int\ getScrollingWidth()
+comment16.params=
+comment16.target=int\ getScrollingHeight()
+comment2.params=wide\ high\ cellSize\ scrollWide
+comment2.target=SWorld(int,\ int,\ int,\ int)
+comment3.params=main\ xRange\ yRange
+comment3.target=void\ setMainActor(greenfoot.Actor,\ int,\ int)
+comment3.text=\r\n\ pozitionarea\ atorului\ principal\ pe\ scena,\ daca\ exista\r\n
+comment4.params=scrollingBackground
+comment4.target=void\ setScrollingBackground(greenfoot.GreenfootImage)
+comment4.text=\r\n\ functi\ Scrolling,\ ca\ sa\ mearga,\ este\ nevoie\ ca\ Scrappie\ sa\ fie\ setat\ cu\ setMainActor()\r\n
+comment5.params=fillImage
+comment5.target=void\ fillScrollingBackground(greenfoot.GreenfootImage)
+comment5.text=\r\n\ parcurgerea\ lumii\ si\ "umplerea"\ hartii\ \=\ cadranul\ se\ va\ misca\ odata\ cu\ actorul\ principal\r\n
+comment6.params=obj\ xLoc\ yLoc\ scroller
+comment6.target=void\ addObject(greenfoot.Actor,\ int,\ int,\ boolean)
+comment6.text=\r\n\ adauga\ un\ actor\ pe\ scena,\ fa-l\ sa\ fie\ scrollable,\ adaugandu-l\ in\ lista\ principala\ de\ obiecte\r\n
+comment7.params=obj\ xLoc\ yLoc
+comment7.target=void\ addObject(greenfoot.Actor,\ int,\ int)
+comment8.params=obj
+comment8.target=void\ removeObject(greenfoot.Actor)
+comment9.params=objs
+comment9.target=void\ removeObjects(java.util.List)
+numComments=17

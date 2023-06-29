@@ -1,0 +1,33 @@
+#BlueJ class context
+comment0.target=Boat1
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Boat1\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=int\ getEchipaj()
+comment10.params=a
+comment10.target=void\ checkCollision(java.lang.Class)
+comment10.text=void\ destroy(){\r\n\ \ \ \ \ \ \ \ if(this.hp\ <\=\ 0){\r\n\ \ \ \ \ \ \ \ \ \ \ \ boatProperties.money\ +\=\ (randomNumber.nextInt(30)\ +\ 10)*10;\r\n\ \ \ \ \ \ \ \ \ \ \ \ for(int\ i\=0;i<getWorld().getObjects(Mesaje.class).size();i++){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ if(getWorld().getObjects(Mesaje.class).get(i).toString().contains("Bani")){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ getWorld().getObjects(Mesaje.class).get(i).update("Bani\:\ "\ +\ boatProperties.money);\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ getWorld().removeObject(this);\r\n\ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ //Level.mesaj.update("Bani\:\ "\ +\ boatProperties.money);\r\n\ \ \ \ \ \ \ \ }\r\n}
+comment11.params=
+comment11.target=void\ moveTrajectory()
+comment12.params=
+comment12.target=void\ fire()
+comment13.params=
+comment13.target=void\ fireIfShipIsInRange()
+comment14.params=
+comment14.target=void\ act()
+comment2.params=echipaj
+comment2.target=void\ setEchipaj(int)
+comment3.params=x
+comment3.target=void\ loseCrew(int)
+comment4.params=
+comment4.target=Boat1()
+comment5.params=x
+comment5.target=int\ getHit(int)
+comment6.params=
+comment6.target=int\ getHp()
+comment7.params=ramasi
+comment7.target=void\ updateCrew(int)
+comment8.params=
+comment8.target=boolean\ isInCloseRange()
+comment9.params=
+comment9.target=void\ destroy()
+numComments=15

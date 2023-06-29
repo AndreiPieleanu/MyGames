@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=BuyButton
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ BuyButton\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=tranzactie
+comment1.target=void\ setTranzactie(boolean)
+comment2.params=
+comment2.target=boolean\ getTranzactie()
+comment3.params=index
+comment3.target=void\ setIndex(int)
+comment4.params=
+comment4.target=int\ getIndex()
+comment5.params=
+comment5.target=int\ getGold()
+comment6.params=gold
+comment6.target=void\ setGold(int)
+comment7.params=
+comment7.target=boolean\ Deal()
+comment8.params=
+comment8.target=void\ act()
+numComments=9

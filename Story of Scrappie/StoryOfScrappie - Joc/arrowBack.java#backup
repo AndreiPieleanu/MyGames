@@ -1,0 +1,36 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class arrowBack here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class arrowBack extends nivelCurent
+{
+    /**
+     * Act - do whatever the arrowBack wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public arrowBack(){
+        GreenfootImage i = getImage();
+        i.scale(10*i.getWidth()/100, 10*i.getHeight()/100);
+        setImage(i);
+    }
+    public void act() 
+    {
+        if(Greenfoot.mouseClicked(this)){
+            if(nivelCurent.x == 0){
+                Greenfoot.setWorld(new StoryofScrappie());
+                nivelCurent.x = 1;
+            }
+            else{
+                nivelCurent.x--;
+                Greenfoot.setWorld(Instructiuni.setWorldType(nivelCurent.x));
+            }
+            //nivelCurent.printX();
+        }
+        
+        // Add your action code here.
+    }    
+}

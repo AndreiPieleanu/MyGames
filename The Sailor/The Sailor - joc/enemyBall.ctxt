@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=enemyBall
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ enemyBall\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=int\ getDamage()
+comment2.params=a
+comment2.target=enemyBall(greenfoot.Actor)
+comment3.params=
+comment3.target=enemyBall()
+comment4.params=
+comment4.target=void\ boom()
+comment5.params=
+comment5.target=void\ reload()
+comment6.params=
+comment6.target=void\ act()
+numComments=7

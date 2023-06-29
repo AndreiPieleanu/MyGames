@@ -1,0 +1,35 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class healthbar_robot3 here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class healthbar_robot3 extends RobotulMalefic
+{
+    /**
+     * Act - do whatever the healthbar_robot3 wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    int health=Scrappie.hp;
+    int width=80;
+    int height=15;
+    int healthPerPixel=(int)width/health;
+    
+    public void act() 
+    {
+        setLocation(Scrappie.x, Scrappie.y-50);
+        update();
+    }    
+     public void update()
+    {
+        health=Scrappie.hp;
+        setImage(new GreenfootImage(width+2,height+2));
+        GreenfootImage hb=getImage();
+        hb.setColor(Color.BLACK);
+        hb.drawRect(0,0,width+1,height+1);
+        hb.setColor(Color.GREEN);
+        hb.fillRect(1,1,health*healthPerPixel,height);
+    }
+}
